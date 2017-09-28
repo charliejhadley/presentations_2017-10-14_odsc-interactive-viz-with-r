@@ -1,0 +1,16 @@
+# Ignore RProject files
+*.Rproj.user
+*.Rhistory
+*.RData
+*.dcf
+*.rds
+*.httr-oauth
+.httr-oauth
+.Rproj.user
+.DS_Store
+
+# Google Analytics Code
+google-analytics.js
+
+# Usage is private
+Usage/
