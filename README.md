@@ -4,14 +4,43 @@ These training materials are made available for attendees of the Interactive Dat
 
 Details about the workshop are available here: https://odsc.com/training/portfolio/interactive-visualisation-r-just-r
 
-# What you need to start
+# Workshop Attendees: BEFORE ATTENDING PLEASE DO THE FOLLOWING
+
+## Setting up R, RStudio and all the packages
+
+You must follow all of these steps BEFORE arriving to the workshop:
 
 - An installation of R [https://cran.r-project.org/](https://cran.r-project.org/)
 - An installation of RStudio [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 
-# Working with these materials
+Before arriving at the workshop, please run the following code in RStudio:
 
-During the course you will need the materials in this repository ([https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R](https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R)). Here's a short URL [https://goo.gl/TXTrz3](https://goo.gl/TXTrz3).
+```r
+install.packages("tidyverse")
+install.packages("gapminder")
+install.packages("shiny")
+install.packages("leaflet")
+install.packages("highcharter")
+install.packages("plotly")
+install.packages("visNetwork")
+```
+
+The following package also needs to be installed, if you have ANY problems when installaing the package please refer to the instructions [https://github.com/r-spatial/sf](https://github.com/r-spatial/sf):
+
+
+```r
+install.packages("sf")
+```
+
+Provided the above package installs correctly please also run the following code:
+
+```r
+install.packages("statesRcontiguous")
+```
+
+## Obtaining the course materials
+
+*As close as possible to the course*, please download the materials in this repository ([https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R](https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R)). Here's a short URL [https://goo.gl/TXTrz3](https://goo.gl/TXTrz3).
 
 Click on "Clone or download" and select "Download as ZIP". Ensure to unzip the folders to a convenient location.
 
@@ -19,7 +48,7 @@ Click on "Clone or download" and select "Download as ZIP". Ensure to unzip the f
 
 # About the instructor
 
-The instructor for this course is [Martin John Hadley](https://www.linkedin.com/in/martinjohnhadley/).
+The instructor for this course is [Martin John Hadley](https://www.linkedin.com/in/martinjohnhadley/). Martin delivers training courses and workshops on R for data science for a variety of online learning platforms, he's also available for independent consultancy work (if you're interested).
 
 # License
 
