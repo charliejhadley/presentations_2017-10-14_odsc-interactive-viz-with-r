@@ -1,0 +1,405 @@
+source,target,type
+Lysa Arryn,Robert Arryn,mother
+Jasper Arryn,Alys Arryn,father
+Jasper Arryn,Jon Arryn,father
+Jon Arryn,Robert Arryn,father
+Cersei Lannister,Tommen Baratheon,mother
+Cersei Lannister,Joffrey Baratheon,mother
+Cassana Baratheon,Stannis Baratheon,mother
+Cersei Lannister,Myrcella Baratheon,mother
+Selyse Florent,Shireen Baratheon,mother
+Cassana Baratheon,Renly Baratheon,mother
+Rhaelle Targaryen,Steffon Baratheon,mother
+Cassana Baratheon,Robert Baratheon,mother
+Robert Baratheon,Tommen Baratheon,father
+Robert Baratheon,Joffrey Baratheon,father
+Steffon Baratheon,Stannis Baratheon,father
+Robert Baratheon,Myrcella Baratheon,father
+Stannis Baratheon,Shireen Baratheon,father
+Steffon Baratheon,Renly Baratheon,father
+Ormund Baratheon,Steffon Baratheon,father
+Steffon Baratheon,Robert Baratheon,father
+Jaime Lannister,Tommen Baratheon,father
+Jaime Lannister,Joffrey Baratheon,father
+Jaime Lannister,Myrcella Baratheon,father
+Mariya Darry,Walda Frey daughter of Merrett,mother
+Genna Lannister,Walder Frey son of Emmon,mother
+Mariya Darry,Walder Frey son of Merrett,mother
+Bethany Rosby,Benfrey Frey,mother
+Genna Lannister,Cleos Frey,mother
+Genna Lannister,Lyonel Frey,mother
+Mariya Darry,Marissa Frey,mother
+Bethany Rosby,Olyvar Frey,mother
+Bethany Rosby,Perwyn Frey,mother
+Genna Lannister,Tion Frey,mother
+Jeyne Darry,Tywin Frey,mother
+Bethany Rosby,Willamen Frey,mother
+Jeyne Darry,Willem Frey,mother
+Mariya Darry,Amerei Frey,mother
+Perra Royce,Emmon Frey,mother
+Dorna Swyft,Lancel Lannister,mother
+Amarei Crakehall,Merrett Frey,mother
+Bethany Rosby,Roslin Frey,mother
+Merrett Frey,Walda Frey daughter of Merrett,father
+Emmon Frey,Walder Frey son of Emmon,father
+Merrett Frey,Walder Frey son of Merrett,father
+Walder Frey,Benfrey Frey,father
+Emmon Frey,Cleos Frey,father
+Emmon Frey,Lyonel Frey,father
+Merrett Frey,Marissa Frey,father
+Walder Frey,Olyvar Frey,father
+Walder Frey,Perwyn Frey,father
+Emmon Frey,Tion Frey,father
+Cleos Frey,Tywin Frey,father
+Walder Frey,Willamen Frey,father
+Cleos Frey,Willem Frey,father
+Merrett Frey,Amerei Frey,father
+Walder Frey,Emmon Frey,father
+Kevan Lannister,Lancel Lannister,father
+Walder Frey,Merrett Frey,father
+Walder Frey,Roslin Frey,father
+Lady of House Stonetree,Quenton Greyjoy,mother
+Lady of House Piper,Robin Greyjoy,mother
+Lady of House Sunderly,Urrigon Greyjoy,mother
+Lady of House Stonetree,Donel Greyjoy,mother
+Lady of House Sunderly,Euron Greyjoy,mother
+Lady of House Stonetree,Harlon Greyjoy,mother
+Lady of House Sunderly,Aeron Greyjoy,mother
+Alannys Harlaw,Asha (Yara) Greyjoy,mother
+Lady of House Sunderly,Balon Greyjoy,mother
+Alannys Harlaw,Maron Greyjoy,mother
+Alannys Harlaw,Theon Greyjoy,mother
+Lady of House Sunderly,Victarion Greyjoy,mother
+Alannys Harlaw,Rodrik Greyjoy,mother
+Quellon Greyjoy,Quenton Greyjoy,father
+Quellon Greyjoy,Robin Greyjoy,father
+Quellon Greyjoy,Urrigon Greyjoy,father
+Quellon Greyjoy,Donel Greyjoy,father
+Quellon Greyjoy,Euron Greyjoy,father
+Quellon Greyjoy,Harlon Greyjoy,father
+Quellon Greyjoy,Aeron Greyjoy,father
+Balon Greyjoy,Asha (Yara) Greyjoy,father
+Quellon Greyjoy,Balon Greyjoy,father
+Balon Greyjoy,Maron Greyjoy,father
+Balon Greyjoy,Theon Greyjoy,father
+Quellon Greyjoy,Victarion Greyjoy,father
+Balon Greyjoy,Rodrik Greyjoy,father
+Marla Prester,Stafford Lannister,mother
+Alys Stackspear,Damon Lannister son of Jason,mother
+Cerissa Brax,Gerold Lannister,mother
+Marla Prester,Joanna Lannister,mother
+Myranda Lefford,Cerenna Lannister,mother
+Rohanne Webber,Jason Lannister,mother
+Shiera Crakehall,Lanna Lannister,mother
+Shiera Crakehall,Lucion Lannister,mother
+Myranda Lefford,Myrielle Lannister,mother
+Cerissa Brax,Tybolt Lannister,mother
+Darlessa Marbrand,Tyrek Lannister,mother
+Dorna Swyft,Willem Lannister,mother
+Joanna Lannister,Cersei Lannister,mother
+Myranda Lefford,Daven Lannister,mother
+Jeyne Marbrand,Genna Lannister,mother
+Jeyne Marbrand,Gerion Lannister,mother
+Joanna Lannister,Jaime Lannister,mother
+Jeyne Marbrand,Kevan Lannister,mother
+Jeyne Marbrand,Tywin Lannister,mother
+Joanna Lannister,Tyrion Lannister,mother
+Ella Lannister,Damion Lannister,mother
+Jeyne Marbrand,Tygett Lannister,mother
+Jason Lannister,Stafford Lannister,father
+Jason Lannister,Damon Lannister son of Jason,father
+Damon Lannister,Gerold Lannister,father
+Jason Lannister,Joanna Lannister,father
+Stafford Lannister,Cerenna Lannister,father
+Gerold Lannister,Jason Lannister,father
+Damion Lannister,Lanna Lannister,father
+Damion Lannister,Lucion Lannister,father
+Stafford Lannister,Myrielle Lannister,father
+Damon Lannister,Tybolt Lannister,father
+Tygett Lannister,Tyrek Lannister,father
+Kevan Lannister,Willem Lannister,father
+Tywin Lannister,Cersei Lannister,father
+Stafford Lannister,Daven Lannister,father
+Tytos Lannister,Genna Lannister,father
+Tytos Lannister,Gerion Lannister,father
+Tywin Lannister,Jaime Lannister,father
+Tytos Lannister,Kevan Lannister,father
+Tytos Lannister,Tywin Lannister,father
+Tywin Lannister,Tyrion Lannister,father
+Damon Lannister son of Jason,Damion Lannister,father
+Tytos Lannister,Tygett Lannister,father
+Elia Martell,Rhaenys Targaryen daughter of Rhaegar,mother
+Elia Martell,Aegon Targaryen son of Rhaegar,mother
+Princess of Dorne,Mors Martell brother of Doran,mother
+Ellaria Sand,Loreza Sand,mother
+Princess of Dorne,Doran Martell,mother
+Princess of Dorne,Oberyn Martell,mother
+Ellaria Sand,Obella Sand,mother
+Ellaria Sand,Elia Sand,mother
+Princess of Dorne,Elia Martell,mother
+Oberyn Martell,Loreza Sand,father
+Oberyn Martell,Nymeria Sand,father
+Oberyn Martell,Obella Sand,father
+Oberyn Martell,Dorea Sand,father
+Oberyn Martell,Elia Sand,father
+Oberyn Martell,Obara Sand,father
+Oberyn Martell,Tyene Sand,father
+Oberyn Martell,Sarella Sand,father
+Catelyn Stark,Robb Stark,mother
+Lorra Royce,Rodrik Stark son of Beron,mother
+Lynara Stark,Brandon Stark son of Cregan,mother
+Lorra Royce,Artos Stark,mother
+Alys Karstark,Beron Stark,mother
+Gilliane Glover,Cregan Stark,mother
+Melantha Blackwood,Edwyle Stark,mother
+Lynara Stark,Jonnel Stark,mother
+Alys Karstark,Rodwell Stark,mother
+Lorra Royce,Willam Stark,mother
+Catelyn Stark,Arya Stark,mother
+Catelyn Stark,Bran Stark,mother
+Lyarra Stark,Lyanna Stark,mother
+Lyarra Stark,Benjen Stark,mother
+Lyarra Stark,Eddard Stark,mother
+Lyanna Stark,Jon Snow,mother
+Catelyn Stark,Sansa Stark,mother
+Marna Locke,Rickard Stark,mother
+Catelyn Stark,Rickon Stark,mother
+Lyarra Stark,Brandon Stark,mother
+Arya Flint,Lyarra Stark,mother
+Eddard Stark,Robb Stark,father
+Beron Stark,Rodrik Stark son of Beron,father
+Brandon Stark,Brandon Stark Burner,father
+Cregan Stark,Brandon Stark son of Cregan,father
+Beron Stark,Artos Stark,father
+Brandon Stark son of Cregan,Beron Stark,father
+Rickon Stark son of Benjen,Cregan Stark,father
+Willam Stark,Edwyle Stark,father
+Cregan Stark,Jonnel Stark,father
+Brandon Stark son of Cregan,Rodwell Stark,father
+Beron Stark,Willam Stark,father
+Eddard Stark,Arya Stark,father
+Eddard Stark,Bran Stark,father
+Rickard Stark,Lyanna Stark,father
+Rickard Stark,Benjen Stark,father
+Rickard Stark,Eddard Stark,father
+Eddard Stark,Jon Snow,father
+Eddard Stark,Sansa Stark,father
+Edwyle Stark,Rickard Stark,father
+Eddard Stark,Rickon Stark,father
+Rickard Stark,Brandon Stark,father
+Rodrik Stark,Lyarra Stark,father
+Rhaegar Targaryen,Jon Snow,father/mother
+Shaera Targaryen,Aerys II Targaryen,mother
+Betha Blackwood,Duncan Targaryen,mother
+Betha Blackwood,Jaehaerys II Targaryen,mother
+Dyanna Dayne,Aegon V Targaryen,mother
+Rhaella Targaryen,Daenerys Targaryen,mother
+Rhaella Targaryen,Viserys Targaryen,mother
+Betha Blackwood,Rhaelle Targaryen,mother
+Rhaella Targaryen,Rhaegar Targaryen,mother
+Rhaegar Targaryen,Rhaenys Targaryen daughter of Rhaegar,father
+Rhaegar Targaryen,Aegon Targaryen son of Rhaegar,father
+Jaehaerys II Targaryen,Aerys II Targaryen,father
+Aegon V Targaryen,Duncan Targaryen,father
+Aegon V Targaryen,Jaehaerys II Targaryen,father
+Maekar I Targaryen,Aegon V Targaryen,father
+Aerys II Targaryen,Daenerys Targaryen,father
+Jaehaerys II Targaryen,Rhaella Targaryen,father
+Aerys II Targaryen,Viserys Targaryen,father
+Aegon V Targaryen,Rhaelle Targaryen,father
+Aerys II Targaryen,Rhaegar Targaryen,father
+Aegon V Targaryen,Shaera Targaryen,father
+Minisa Whent,Catelyn Stark,mother
+Minisa Whent,Edmure Tully,mother
+Minisa Whent,Lysa Arryn,mother
+Hoster Tully,Catelyn Stark,father
+Hoster Tully,Edmure Tully,father
+Hoster Tully,Lysa Arryn,father
+Alerie Hightower,Margaery Tyrell,mother
+Lia Serry,Luthor Tyrell son of Theodore,mother
+Elyn Norridge,Medwick Tyrell,mother
+Elyn Norridge,Olene Tyrell,mother
+Lia Serry,Elinor Tyrell,mother
+Mina Tyrell,Hobber Redwyne,mother
+Mina Tyrell,Horas Redwyne,mother
+Unknown mother Tyrell,Luthor Tyrell,mother
+Olenna Redwyne,Mina Tyrell,mother
+Unknown mother Tyrell,Moryn Tyrell,mother
+Elyn Norridge,Theodore Tyrell,mother
+Olenna Redwyne,Mace Tyrell,mother
+Alerie Hightower,Garlan Tyrell,mother
+Alerie Hightower,Willas Tyrell,mother
+Alerie Hightower,Loras Tyrell,mother
+Mace Tyrell,Margaery Tyrell,father
+Moryn Tyrell,Luthor Tyrell son of Moryn,father
+Theodore Tyrell,Luthor Tyrell son of Theodore,father
+Luthor Tyrell son of Moryn,Medwick Tyrell,father
+Luthor Tyrell son of Moryn,Olene Tyrell,father
+Theodore Tyrell,Elinor Tyrell,father
+Paxter Redwyne,Hobber Redwyne,father
+Paxter Redwyne,Horas Redwyne,father
+Unknown father Tyrell,Luthor Tyrell,father
+Luthor Tyrell,Mina Tyrell,father
+Unknown father Tyrell,Moryn Tyrell,father
+Luthor Tyrell son of Moryn,Theodore Tyrell,father
+Luthor Tyrell,Mace Tyrell,father
+Mace Tyrell,Garlan Tyrell,father
+Mace Tyrell,Willas Tyrell,father
+Mace Tyrell,Loras Tyrell,father
+Roose Bolton,Ramsay Bolton,father
+Alys Arryn,Elys Waynwood,spouse
+Elys Waynwood,Alys Arryn,spouse
+Jon Arryn,Jeyne Royce,spouse
+Lysa Arryn,Jon Arryn,spouse
+Jon Arryn,Lysa Arryn,spouse
+Jon Arryn,Rowena Arryn,spouse
+Tommen Baratheon,Margaery Tyrell,spouse
+Joffrey Baratheon,Margaery Tyrell,spouse
+Margaery Tyrell,Renly Baratheon,spouse
+Cassana Baratheon,Steffon Baratheon,spouse
+Cersei Lannister,Robert Baratheon,spouse
+Renly Baratheon,Margaery Tyrell,spouse
+Steffon Baratheon,Cassana Baratheon,spouse
+Selyse Florent,Stannis Baratheon,spouse
+Rhaelle Targaryen,Ormund Baratheon,spouse
+Robert Baratheon,Cersei Lannister,spouse
+Margaery Tyrell,Joffrey Baratheon,spouse
+Margaery Tyrell,Tommen Baratheon,spouse
+Walda Frey daughter of Merrett,Roose Bolton,spouse
+Benfrey Frey,Jyanna Frey,spouse
+Jeyne Darry,Cleos Frey,spouse
+Jyanna Frey,Benfrey Frey,spouse
+Cleos Frey,Jeyne Darry,spouse
+Lyonel Frey,Melesa Crakehall,spouse
+Mariya Darry,Merrett Frey,spouse
+Melesa Crakehall,Lyonel Frey,spouse
+Pate of the Blue Fork,Amerei Frey,spouse
+Amerei Frey,Pate of the Blue Fork,spouse
+Emmon Frey,Genna Lannister,spouse
+Lancel Lannister,Amerei Frey,spouse
+Merrett Frey,Mariya Darry,spouse
+Edmure Tully,Roslin Frey,spouse
+Genna Lannister,Emmon Frey,spouse
+Roslin Frey,Edmure Tully,spouse
+Perra Royce,Walder Frey,spouse
+Amarei Crakehall,Walder Frey,spouse
+Bethany Rosby,Walder Frey,spouse
+Quellon Greyjoy,Lady of House Stonetree,spouse
+Erik Ironmaker,Asha (Yara) Greyjoy,spouse
+Alannys Harlaw,Balon Greyjoy,spouse
+Asha (Yara) Greyjoy,Erik Ironmaker,spouse
+Quellon Greyjoy,Lady of House Sunderly,spouse
+Quellon Greyjoy,Lady of House Piper,spouse
+Stafford Lannister,Myranda Lefford,spouse
+Damon Lannister,Cerissa Brax,spouse
+Damon Lannister son of Jason,Ella Lannister,spouse
+Gerold Lannister,Alysanne Farman,spouse
+Joanna Lannister,Tywin Lannister,spouse
+Antario Jast,Lanna Lannister,spouse
+Darlessa Marbrand,Tygett Lannister,spouse
+Ermesande Hayford,Tyrek Lannister,spouse
+Jason Lannister,Alys Stackspear,spouse
+Lanna Lannister,Antario Jast,spouse
+Shiera Crakehall,Damion Lannister,spouse
+Tybolt Lannister,Teora Kyndall,spouse
+Tyrek Lannister,Ermesande Hayford,spouse
+Kevan Lannister,Dorna Swyft,spouse
+Sansa Stark,Tyrion Lannister,spouse
+Tywin Lannister,Joanna Lannister,spouse
+Tysha,Tyrion Lannister,spouse
+Tyrion Lannister,Tysha,spouse
+Damion Lannister,Shiera Crakehall,spouse
+Tygett Lannister,Darlessa Marbrand,spouse
+Tytos Lannister,Jeyne Marbrand,spouse
+Jason Lannister,Marla Prester,spouse
+Gerold Lannister,Rohanne Webber,spouse
+Doran Martell,Mellario of Norvos,spouse
+Ellaria Sand,Oberyn Martell,spouse
+Elia Martell,Rhaegar Targaryen,spouse
+Rhaegar Targaryen,Elia Martell,spouse
+Rodrik Stark son of Beron,Arya Flint,spouse
+Brandon Stark son of Cregan,Alys Karstark,spouse
+Catelyn Stark,Eddard Stark,spouse
+Jeyne Westerling,Robb Stark,spouse
+Artos Stark,Lysara Karstark,spouse
+Beron Stark,Lorra Royce,spouse
+Cregan Stark,Arra Norrey,spouse
+Edwyle Stark,Marna Locke,spouse
+Jonnel Stark,Robyn Ryswell,spouse
+Rodwell Stark,Myriame Manderly,spouse
+Willam Stark,Melantha Blackwood,spouse
+Eddard Stark,Catelyn Stark,spouse
+Rickard Stark,Lyarra Stark,spouse
+Lyarra Stark,Rickard Stark,spouse
+Willam Stark,Lyanna Glover,spouse
+Sansa Stark,Ramsay Bolton,spouse
+Cregan Stark,Lynara Stark,spouse
+Talisa Stark,Robb Stark,spouse
+Aerys II Targaryen,Rhaella Targaryen,spouse
+Duncan Targaryen,Jenny of Oldstones,spouse
+Maron Martell,Daenerys Targaryen,spouse
+Daenerys Targaryen,Drogo,spouse
+Hizdahr zo Loraq,Daenerys Targaryen,spouse
+Rhaella Targaryen,Aerys II Targaryen,spouse
+Drogo,Daenerys Targaryen,spouse
+Daenerys Targaryen,Hizdahr zo Loraq,spouse
+Minisa Whent,Hoster Tully,spouse
+Hoster Tully,Minisa Whent,spouse
+Petyr Baelish,Lysa Arryn,spouse
+Lysa Arryn,Petyr Baelish,spouse
+Lia Serry,Theodore Tyrell,spouse
+Luthor Tyrell son of Moryn,Elyn Norridge,spouse
+Olene Tyrell,Leo Blackbar,spouse
+Elyn Norridge,Luthor Tyrell son of Moryn,spouse
+Leo Blackbar,Olene Tyrell,spouse
+Leonette Fossoway,Garlan Tyrell,spouse
+Luthor Tyrell,Olenna Redwyne,spouse
+Mina Tyrell,Paxter Redwyne,spouse
+Theodore Tyrell,Lia Serry,spouse
+Mace Tyrell,Alerie Hightower,spouse
+Olenna Redwyne,Luthor Tyrell,spouse
+Paxter Redwyne,Mina Tyrell,spouse
+Alerie Hightower,Mace Tyrell,spouse
+Garlan Tyrell,Leonette Fossoway,spouse
+Jeyne Royce,Jon Arryn,spouse
+Rowena Arryn,Jon Arryn,spouse
+Stannis Baratheon,Selyse Florent,spouse
+Ormund Baratheon,Rhaelle Targaryen,spouse
+Roose Bolton,Walda Frey daughter of Merrett,spouse
+Amerei Frey,Lancel Lannister,spouse
+Walder Frey,Perra Royce,spouse
+Walder Frey,Amarei Crakehall,spouse
+Walder Frey,Bethany Rosby,spouse
+Lady of House Stonetree,Quellon Greyjoy,spouse
+Balon Greyjoy,Alannys Harlaw,spouse
+Lady of House Sunderly,Quellon Greyjoy,spouse
+Lady of House Piper,Quellon Greyjoy,spouse
+Myranda Lefford,Stafford Lannister,spouse
+Cerissa Brax,Damon Lannister,spouse
+Ella Lannister,Damon Lannister son of Jason,spouse
+Alysanne Farman,Gerold Lannister,spouse
+Alys Stackspear,Jason Lannister,spouse
+Teora Kyndall,Tybolt Lannister,spouse
+Dorna Swyft,Kevan Lannister,spouse
+Tyrion Lannister,Sansa Stark,spouse
+Jeyne Marbrand,Tytos Lannister,spouse
+Marla Prester,Jason Lannister,spouse
+Rohanne Webber,Gerold Lannister,spouse
+Mellario of Norvos,Doran Martell,spouse
+Oberyn Martell,Ellaria Sand,spouse
+Arya Flint,Rodrik Stark son of Beron,spouse
+Alys Karstark,Brandon Stark son of Cregan,spouse
+Robb Stark,Jeyne Westerling,spouse
+Lysara Karstark,Artos Stark,spouse
+Lorra Royce,Beron Stark,spouse
+Arra Norrey,Cregan Stark,spouse
+Marna Locke,Edwyle Stark,spouse
+Robyn Ryswell,Jonnel Stark,spouse
+Myriame Manderly,Rodwell Stark,spouse
+Melantha Blackwood,Willam Stark,spouse
+Lyanna Glover,Willam Stark,spouse
+Ramsay Bolton,Sansa Stark,spouse
+Lynara Stark,Cregan Stark,spouse
+Robb Stark,Talisa Stark,spouse
+Jenny of Oldstones,Duncan Targaryen,spouse
+Daenerys Targaryen,Maron Martell,spouse
