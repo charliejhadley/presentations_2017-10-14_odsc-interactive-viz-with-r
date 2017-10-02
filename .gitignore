@@ -8,6 +8,7 @@
 .httr-oauth
 .Rproj.user
 .DS_Store
+*.pptx
 
 # Google Analytics Code
 google-analytics.js
