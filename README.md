@@ -40,7 +40,7 @@ install.packages("statesRcontiguous")
 
 ## Obtaining the course materials
 
-*As close as possible to the course*, please download the materials in this repository ([https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R](https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R)). Here's a short URL [https://goo.gl/TXTrz3](https://goo.gl/TXTrz3).
+*As close as possible to the course* please download the materials in this repository ([https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R](https://github.com/martinjhnhadley/2017-odsc-interactive-viz-with-R)). Here's a short URL [https://goo.gl/TXTrz3](https://goo.gl/TXTrz3).
 
 Click on "Clone or download" and select "Download as ZIP". Ensure to unzip the folders to a convenient location.
 
