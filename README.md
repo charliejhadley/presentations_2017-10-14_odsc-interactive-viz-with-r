@@ -19,6 +19,7 @@ Before arriving at the workshop, please run the following code in RStudio:
 install.packages("tidyverse")
 install.packages("gapminder")
 install.packages("shiny")
+install.packages("rmarkdown")
 install.packages("leaflet")
 install.packages("highcharter")
 install.packages("plotly")
