@@ -23,6 +23,7 @@ install.packages("leaflet")
 install.packages("highcharter")
 install.packages("plotly")
 install.packages("visNetwork")
+install.packages("RColorBrewer")
 ```
 
 The following package also needs to be installed, if you have ANY problems when installaing the package please refer to the instructions [https://github.com/r-spatial/sf](https://github.com/r-spatial/sf):
