@@ -10,6 +10,10 @@
 .DS_Store
 *.pptx
 
+# Ignore rsconnect
+rsconnect/
+*_files/
+
 # Google Analytics Code
 google-analytics.js
 
