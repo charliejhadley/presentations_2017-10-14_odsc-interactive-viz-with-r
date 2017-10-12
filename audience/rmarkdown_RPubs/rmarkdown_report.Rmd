@@ -1,0 +1,142 @@
+---
+title: "RMarkdown with htmlwidgets"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+```{r packages, include=FALSE}
+library("tidyverse")
+library("widgetframe")
+library("statesRcontiguous")
+library("leaflet.extras")
+library("RColorBrewer")
+library("leaflet")
+library("visNetwork")
+library("highcharter")
+library("gapminder")
+```
+
+## Safely including htmlwidgets in RMarkdown
+
+There's a lot going on with a hmtlwidget inside of an RMarkdown document - there can be conflicting CSS/JavaScript that causes issues. For instance, in the map below clicking either zoom button will change the slide:
+
+```{r leaflet_without_widgetframe_eval, echo=FALSE, eval=TRUE}
+leaflet() %>%
+  addTiles()
+```
+
+To protext against this, use the `widgetframe` library to effectively embed htmlwidgets as independent, responsive iframes.
+
+```{r widgetframe_demo_echo, include=TRUE, eval=FALSE}
+library("widgetframe")
+library("leaflet")
+lf <- leaflet() %>%
+  addTiles()
+frameWidget(lf)
+```
+
+```{r widgetframe_demo_eval, echo=FALSE, eval=TRUE}
+lf <- leaflet() %>%
+  addTiles()
+frameWidget(lf)
+```
+
+## Choropleth with Leaflet
+
+This slide contains a choropleth created using the `leaflet` library.
+
+```{r leaflet_choropleth}
+contiguous_states <- shp_all_us_states %>%
+  filter(contiguous.united.states == TRUE)
+
+
+palette_state_divisions <-
+  colorFactor(brewer.pal(9, "Set3"),
+              contiguous_states$state.division)
+
+lf_choropleth <- contiguous_states %>%
+  leaflet() %>%
+  addPolygons(
+    fillColor = ~palette_state_divisions(state.division),
+    color = "#000000",
+    fillOpacity = 1,
+    weight = 1,
+    label = ~state.name
+  ) %>%
+  addLegend(pal = palette_state_divisions,
+            values = ~state.division,
+            opacity = 1) %>%
+  setMapWidgetStyle(style = list(background = "#aacbff"))
+# frameWidget(lf_choropleth)
+lf_choropleth
+```
+
+## GoT Network
+
+This is an interactive network built using the visNetwork library
+
+```{r got_network}
+got_nodes <- read_csv("data/GoT_nodes.csv") %>%
+  mutate(group = superculture)
+got_edges <- read_csv("data/GoT_edges.csv") %>%
+  rename(from = source,
+         to = target)
+got_network <- visNetwork(got_nodes, got_edges) %>%
+  visIgraphLayout() %>%
+  visLegend() %>%
+  visOptions(highlightNearest = TRUE)
+# frameWidget(got_network)
+got_network
+```
+
+## Gapminder Charts
+
+This is an interactive chart built using RMarkdown
+
+```{r}
+hc_style_gapminder <- function(hc) {
+  hc %>%
+    hc_colors(colors = brewer.pal(5, "Dark2")) %>%
+    hc_xAxis(title = "Year") %>%
+    hc_yAxis(title = "",
+             labels = list(formatter = JS("function() {
+          return this.value / 1000000000 + 'B';
+        }"))) %>%
+    hc_tooltip(
+      shared = TRUE,
+      valueDecimals = 0
+      )
+}
+
+gapminder_chart <- gapminder %>%
+  group_by(year, continent) %>%
+  summarise(total.pop = sum(as.numeric(pop))) %>%
+  hchart(
+    type = "line",
+    hcaes(
+      x = year,
+      y = total.pop,
+      group = continent
+    )
+  ) %>%
+  hc_title(text = "Continental populations from 1952 - 2007") %>%
+  hc_style_gapminder() %>%
+  hc_yAxis(labels = list(formatter = JS("function() {
+          return this.value / 1000000000 + 'B';
+        }")))
+# frameWidget(gapminder_chart)
+gapminder_chart
+```
+
+
