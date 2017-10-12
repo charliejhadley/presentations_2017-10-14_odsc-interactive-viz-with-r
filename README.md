@@ -23,6 +23,7 @@ install.packages("leaflet")
 install.packages("highcharter")
 install.packages("plotly")
 install.packages("visNetwork")
+install.packages("igraph")
 install.packages("RColorBrewer")
 ```
 
