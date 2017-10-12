@@ -9,6 +9,8 @@
 .Rproj.user
 .DS_Store
 *.pptx
+Icon
+.Icon
 
 # Ignore rsconnect
 rsconnect/
@@ -18,4 +20,4 @@ rsconnect/
 google-analytics.js
 
 # Usage is private
-Usage/
+Usage/
