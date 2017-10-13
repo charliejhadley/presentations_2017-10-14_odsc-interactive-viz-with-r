@@ -27,31 +27,6 @@ library("highcharter")
 library("gapminder")
 ```
 
-## Safely including htmlwidgets in RMarkdown
-
-There's a lot going on with a hmtlwidget inside of an RMarkdown document - there can be conflicting CSS/JavaScript that causes issues. For instance, in the map below clicking either zoom button will change the slide:
-
-```{r leaflet_without_widgetframe_eval, echo=FALSE, eval=TRUE}
-leaflet() %>%
-  addTiles()
-```
-
-To protext against this, use the `widgetframe` library to effectively embed htmlwidgets as independent, responsive iframes.
-
-```{r widgetframe_demo_echo, include=TRUE, eval=FALSE}
-library("widgetframe")
-library("leaflet")
-lf <- leaflet() %>%
-  addTiles()
-frameWidget(lf)
-```
-
-```{r widgetframe_demo_eval, echo=FALSE, eval=TRUE}
-lf <- leaflet() %>%
-  addTiles()
-frameWidget(lf)
-```
-
 ## Choropleth with Leaflet
 
 This slide contains a choropleth created using the `leaflet` library.
