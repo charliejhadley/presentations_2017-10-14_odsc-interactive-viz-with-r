@@ -6,4 +6,3 @@ fluidPage(
   leafletOutput("leaflet_map")
 )
 
-
