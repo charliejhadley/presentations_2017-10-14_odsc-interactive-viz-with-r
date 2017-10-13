@@ -1,0 +1,64 @@
+---
+title: "Example Parameterised Report"
+output: 
+  html_document: 
+    code_folding: hide
+params:
+   ticker: "GOOG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+# Historical Prices
+
+```{r historical_prices}
+library("quantmod")
+library("highcharter")
+ticker_xts <- getSymbols(Symbols = params$ticker, auto.assign = FALSE)
+highchart(type = "stock") %>% 
+  hc_add_series(ticker_xts) %>%
+  hc_title(text = paste("Historical prices for", params$ticker))
+```
+
+# Company Headquarters
+
+```{r company_hq}
+library("rvest")
+library("ggmap")
+library("leaflet")
+
+company_hq_coords <- function(ticker){
+  
+  gfinance_page <- read_html(paste0("https://finance.google.co.uk/finance?q=", ticker))
+  
+  gfinance_page %>%
+    html_nodes(".sfe-section") %>%
+    html_text() %>%
+    .[[4]] %>%
+    gsub("[ ][-][ ]..*", "", .) %>%
+    geocode()
+  
+}
+
+company_hq_map <- function(ticker){
+  
+  coords <- company_hq_coords(ticker)
+
+  coords %>%
+    leaflet() %>%
+    addTiles() %>%
+    addMarkers(label = paste("Company HQ:", ticker)) 
+}
+
+company_hq_map(params$ticker)
+```
+
+
+
+
