@@ -24,7 +24,6 @@ hc_style_gapminder <- function(hc) {
       shared = TRUE,
       valueDecimals = 0
              )
-  
 }
 
 gapminder %>%
